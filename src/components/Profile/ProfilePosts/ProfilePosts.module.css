@@ -60,6 +60,7 @@
   border-radius: 1px;
   margin: 27px 20px 24px 20px;
   resize: none;
+  padding: 5px;
 }
 .addPost button {
   text-align: center;
