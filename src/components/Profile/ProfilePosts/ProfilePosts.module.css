@@ -1,0 +1,77 @@
+.comments {
+  margin: 0 20px;
+}
+.commentName {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.commentName span {
+  margin-left: 5px;
+  font-size: 11px;
+  font-weight: 400;
+  font-size: 11px;
+  color: #9b9b9b;
+}
+.message {
+  position: relative;
+  line-height: 19px;
+  padding: 20px 15px 20px 20px;
+  border: 1px solid #ccc;
+  background: #f2fbff;
+  margin-bottom: 25px;
+}
+
+.triangle {
+  top: -10px;
+  left: 22px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 10px solid #ccc;
+  position: absolute;
+}
+
+.triangle:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-left: 9px solid #fff;
+  position: absolute;
+  top: -8px;
+  left: -9px;
+}
+.reviews__creation {
+  background: #f2f2f2;
+  overflow: auto;
+  margin-top: 18px;
+}
+/* btn */
+.addPost {
+  display: flex;
+  flex-direction: column;
+  background: #f2f2f2;
+}
+.addPost textarea {
+  font-family: Arial, Tahoma, sans-serif;
+  min-height: 63px;
+  border: 1px solid #000000;
+  border-radius: 1px;
+  margin: 27px 20px 24px 20px;
+  resize: none;
+}
+.addPost button {
+  text-align: center;
+  margin: 0 auto 35px;
+  width: 281px;
+  height: 43px;
+  border: none;
+  background: #fdd639;
+  border-radius: 23px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+}

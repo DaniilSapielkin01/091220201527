@@ -1,0 +1,152 @@
+.info {
+  display: flex;
+  margin: 21px 20px 25px;
+}
+.avatar img {
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  position: relative;
+}
+.infoProfile {
+  width: 100%;
+  margin-left: 10px;
+}
+.infoName {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.infoJob {
+  color: #808080;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.infoDecription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffcc;
+  border: 1px solid #cecabf;
+  border-radius: 5px;
+  line-height: 20px;
+  margin-bottom: 14px;
+  padding: 9px 0 9px 10%;
+  margin-left: -10%;
+}
+.servicesHeader {
+  font-size: 13px;
+  color: #333;
+  text-align: right;
+  margin-right: 5%;
+}
+.servicesTypes {
+  padding: 15px 0 15px 0;
+  margin: 7px 0 15px;
+  line-height: 24px;
+  font-size: 13px;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.servicesTypes li {
+  position: relative;
+  margin-top: 2px;
+  border-left: 1px solid rgba(51, 51, 51, 0.2);
+}
+.servicesTypes p {
+  padding-left: 6px;
+}
+.servicesTypes p span {
+  float: right;
+  font-weight: bold;
+  margin-right: 8%;
+}
+.background {
+  border-radius: 0 3px 3px 0;
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+}
+.servicesBooking .background {
+  width: 40%;
+  background-color: #b1e19b;
+}
+.servicesTours .background {
+  width: 10%;
+  background-color: #ace2f8;
+}
+.servicesHotels .background {
+  width: 7%;
+  background-color: #ace2f8;
+}
+.servicesTotal {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 8%;
+}
+.servicesTotal span {
+  float: right;
+}
+/* reviews */
+.reviews {
+  margin: 0 20px 15px;
+  padding: 2px 0 2px 0;
+}
+.reviews h3 {
+  margin-right: 2%;
+  display: inline-block;
+}
+.reviews a {
+  font-size: 14px;
+  color: #005da1;
+  text-decoration-line: underline;
+  margin-top: 2px;
+}
+
+.reviewsIcon {
+  display: flex;
+  float: right;
+  font-size: 12px;
+  padding-top: 2px;
+}
+.likesIcon {
+  height: 12px;
+  width: 12px;
+  background: url(../../../assets/image/icons/icon-like.png) left center
+    no-repeat;
+  margin-right: 16px;
+  padding-left: 16px;
+}
+.likesIcon {
+  padding-bottom: 3px;
+}
+.commentsIcon {
+  background: url(../../../assets/image/icons/icon-comment.png) left 60%
+    no-repeat;
+  padding-left: 16px;
+  height: 18px;
+}
+
+@media screen and (max-width: 490px) {
+  .avatar img {
+    width: 112px;
+    height: 112px;
+  }
+  .infoDecription {
+    line-height: 13px;
+    padding: 6px 5px 6px 35%;
+    margin-left: -35%;
+  }
+  .infoDecription p {
+    font-size: 13px;
+  }
+  .servicesTotal {
+    font-size: 15px;
+  }
+  .reviews a {
+    font-size: 12px;
+  }
+  .reviews h3 {
+    font-size: 14px;
+  }
+}
